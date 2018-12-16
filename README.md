@@ -3,18 +3,24 @@
 Information/Reminder of How to set-up cloud9 for aws instance.
 
 
-#### Environment Name and Description
+# Environment Name and Description
 * Name
 * Description
 
-#### Environment Settings
+# Environment Settings
 1. Connect and Run in Remote Server (SSH)
 * User (ex. Root/Ubuntu)
 * Host (example.com)
 * Port (defaulted to 22)
 
-2. Copy Public SSH Key
+#### SSH Configuration
 
+2. Copy and Paste Public SSH Key
+
+```bash
+cd  ~/.ssh/
+sudo vim authorized_keys 
+```
 3. Advance Settings
 * Environment Path (default: /home/ubuntu/environment )
 * Node.js Binary Path (default: /usr/bin/node )
